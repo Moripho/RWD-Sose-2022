@@ -1,0 +1,64 @@
+.razercare {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+#razercare-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-image: url('../bilder_grafiken/razercare-mockup.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  width: 1920px;  
+}
+
+#razercare-icon-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  left: 40%;
+}
+
+#razercare-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+#razercare-text-container {
+  width: 330px;
+  position: absolute;
+  right: 10%;
+}
+
+#razercare-text-top,
+#razercare-text-bottom {
+  font-family: Roboto, Arial;
+}
+
+#razercare-text-top {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+#razercare-text-bottom {
+  font-size: 16px;
+  color: #00FF00;
+  cursor: pointer;
+}
+
+#razercare-text-bottom:hover {
+  text-decoration: underline;
+}
+
+
+

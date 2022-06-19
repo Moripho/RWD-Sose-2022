@@ -1,9 +1,16 @@
 .marketing-section-one {
-  width: 100%;
+  width: 100vw;
   height: 370px;
-  background-color: #080808;
   display: flex;
   justify-content: center;
+}
+
+#background-marketing-section-one {
+  display: flex;
+  justify-content: center;
+  background-color: #080808;
+  height: 370px;
+  width: 1920px;
 }
 
 #marketing-wrapper {
@@ -68,6 +75,7 @@
   width: 1920px;
   background-image: url('../bilder_grafiken/razer-spheres-mockup.png');
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 
