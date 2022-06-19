@@ -1,0 +1,106 @@
+.properties-container {
+  display: flex;
+  height: 480px;
+  width: 100%;
+  background-color: #111111;
+  justify-content: center;
+}
+
+.properties-illustration-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  align-items: center;
+}
+
+#properties-heading {
+  position: absolute;
+  margin: 0;
+  font-family: RazerF5;
+  font-weight: normal;
+  font-size: 28px;
+  color: #999999;
+  top: 82px;
+}
+
+#properties-illustration-wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  top: 202px;
+}
+
+.property-illustration {
+  display: flex;
+  flex-direction: column;
+  width: 142px;
+  align-items: center;
+}
+
+.property-icon {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+
+}
+
+.property-text {
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  color: #999999;
+}
+
+/*
+
+.properties-container {
+  position: relative;
+  display: flex;
+  height: 480px;
+  width: 100%;
+  background-color: #111111;
+  justify-content: center;
+}
+
+#properties-heading {
+  position: absolute;
+  margin: 0;
+  font-family: RazerF5;
+  font-weight: normal;
+  font-size: 28px;
+  color: #999999;
+  top: 82px;
+}
+
+.properties-illustration-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 202px;
+  width: 1300px;
+  justify-content: space-evenly;
+}
+
+.property-illustration {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+}
+
+.property-icon {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+
+}
+
+.property-text {
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  color: #999999;
+}
+
+*/

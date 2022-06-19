@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="141" height="141" viewBox="0 0 141 141">
+  <g id="Oberfläche_Icon" data-name="Oberfläche Icon" transform="translate(-1477 -1645)">
+    <g id="Second_Half" data-name="Second Half" transform="translate(1476.515 1664.222)">
+      <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(0.485 22.778)" fill="none" stroke="#999" stroke-width="4">
+        <ellipse cx="70.5" cy="27.5" rx="70.5" ry="27.5" stroke="none"/>
+        <ellipse cx="70.5" cy="27.5" rx="68.5" ry="25.5" fill="none"/>
+      </g>
+      <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(7.485 50.778)" fill="none" stroke="#999" stroke-width="4">
+        <ellipse cx="64" cy="25" rx="64" ry="25" stroke="none"/>
+        <ellipse cx="64" cy="25" rx="62" ry="23" fill="none"/>
+      </g>
+      <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(7.485 -0.222)" fill="none" stroke="#999" stroke-width="4">
+        <ellipse cx="64" cy="25.5" rx="64" ry="25.5" stroke="none"/>
+        <ellipse cx="64" cy="25.5" rx="62" ry="23.5" fill="none"/>
+      </g>
+    </g>
+    <g id="First_Half" data-name="First Half" transform="translate(1494.455 1785.958) rotate(-90)">
+      <g id="Ellipse_11-2" data-name="Ellipse 11" transform="translate(-0.042 23.545)" fill="none" stroke="#999" stroke-width="4">
+        <ellipse cx="70.5" cy="28" rx="70.5" ry="28" stroke="none"/>
+        <ellipse cx="70.5" cy="28" rx="68.5" ry="26" fill="none"/>
+      </g>
+      <g id="Ellipse_12-2" data-name="Ellipse 12" transform="translate(7.958 52.545)" fill="none" stroke="#999" stroke-width="4">
+        <ellipse cx="63" cy="25.5" rx="63" ry="25.5" stroke="none"/>
+        <ellipse cx="63" cy="25.5" rx="61" ry="23.5" fill="none"/>
+      </g>
+      <g id="Ellipse_13-2" data-name="Ellipse 13" transform="translate(7.958 -0.455)" fill="none" stroke="#999" stroke-width="4">
+        <ellipse cx="63" cy="26" rx="63" ry="26" stroke="none"/>
+        <ellipse cx="63" cy="26" rx="61" ry="24" fill="none"/>
+      </g>
+    </g>
+    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(1477 1645)" fill="none" stroke="#999" stroke-width="4">
+      <circle cx="70.5" cy="70.5" r="70.5" stroke="none"/>
+      <circle cx="70.5" cy="70.5" r="68.5" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+.shop-section {
+  display: flex;
+  height: 260px;
+  width: 100vw;
+  background-color: black;
+  justify-content: center;
+}
+
+#shop-heading {
+  margin: 48px 0 0 0;
+  font-family: RazerF5;
+  font-weight: normal;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+
+#shop-wrapper {
+  width: auto;
+}
+
+#shop-row {
+  display: flex;
+  height: 100px;
+  margin-top: 36px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 40px 0 40px;
+}
+
+#amazon-logo,
+#mediamarkt-logo,
+#saturn-logo {
+  cursor: pointer;
+}
+
+#amazon-logo {
+  border-radius: 5px;
+}

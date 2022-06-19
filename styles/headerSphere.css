@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 100vw;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(16, 16, 16);
+  z-index: 100;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+#razer-logo {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+#razer-sphere-heading {
+  font-family: RazerF5, Arial;
+  font-weight: normal;
+  color: white;
+  font-size: 16px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+#buy-button {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(0, 255, 0);
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+#buy-button:hover {
+  opacity: 0.85;
+}

@@ -1,0 +1,68 @@
+.carousel-container {
+  width: 100vw;
+  height: 370px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  width: 800px;
+  overflow: hidden;
+  position: relative;
+  background: black;
+}
+.slider {
+  display: flex;
+  height: 100%;
+  width: 400%;
+  transition: all 0.3s;
+}
+.slider .content-panel {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+.control ul li {
+  width: 14px;
+  height: 14px;
+  background: #cccccc;
+  border-radius: 8px;
+  margin: 20px;
+  cursor: pointer;
+}
+.control ul li.selected {
+  background: #00FF00;
+}
+
+.quote {
+  font-family: RazerF5, Arial;
+  font-size: 20px;
+  line-height: 25.6px;
+  font-weight: bold;
+  margin: 32px 0px;
+  color: white;
+  text-align: center;
+}
+
+.author {
+  font-family: Roboto, Arial;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+

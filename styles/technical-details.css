@@ -1,0 +1,91 @@
+.technical-details {
+  width: 100%;
+  height: 1100px;
+  background-color: #181818;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  width: 1000px;
+  height: 736px;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
+  grid-template-rows: 5fr repeat(11, 1fr);
+  grid-auto-rows: minmax(46px, auto);
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  color: white;
+}
+
+#grid-item-two {
+  background-image: url('../bilder_grafiken/razer-sphere-pitch-black.svg');
+  background-repeat: no-repeat;
+}
+
+#grid-item-three {
+  background-image: url('../bilder_grafiken/razer-sphere-pearl-white.svg');
+  background-repeat: no-repeat;
+}
+
+#grid-item-four {
+  background-image: url('../bilder_grafiken/razer-sphere-reptile-green.svg');
+  background-repeat: no-repeat;
+}
+
+.grid-item-header {
+  display: flex;
+  margin-left: 40px;
+}
+
+.grid-item-model,
+.grid-item {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #707070;
+}
+
+#grid-item-five {
+  border-width: 0px 0px 0.5px 0px;
+}
+
+#grid-item-six,
+#grid-item-seven,
+#grid-item-eight {
+border-width: 0px 0px 0.5px 0;
+}
+
+#grid-item-eight,
+#grid-item-twelve,
+#grid-item-sixteen,
+#grid-item-twenty,
+#grid-item-twentyfour,
+#grid-item-twentyeight,
+#grid-item-thirtytwo,
+#grid-item-thirtysix,
+#grid-item-forty,
+#grid-item-fortyfour,
+#grid-item-fortyeight
+{
+  border-right-width: 0px;
+}
+
+#grid-item-nine,
+#grid-item-thirteen,
+#grid-item-seventeen,
+#grid-item-twentyone,
+#grid-item-twentyfive,
+#grid-item-twentynine,
+#grid-item-thirtythree,
+#grid-item-thirtyseven,
+#grid-item-fortyone,
+#grid-item-fortyfive {
+  border-left-width: 0px;
+}
+
+

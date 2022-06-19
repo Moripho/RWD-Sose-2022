@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="141" height="141" viewBox="0 0 141 141">
+  <g id="Radius_Illustration" data-name="Radius Illustration" transform="translate(-304 -1645)">
+    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(304 1645)" fill="none" stroke="#999" stroke-width="4">
+      <circle cx="70.5" cy="70.5" r="70.5" stroke="none"/>
+      <circle cx="70.5" cy="70.5" r="68.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="7" cy="7" r="7" transform="translate(368 1709)" fill="#999"/>
+    <line id="Line_7" data-name="Line 7" x2="66" transform="translate(374 1715)" fill="none" stroke="#999" stroke-width="4"/>
+  </g>
+</svg>

@@ -1,0 +1,113 @@
+.product-video-container {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-top: 60px;
+  width: 100%;
+}
+
+#product-title-container,
+#catch-phrase{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+#product-title-container {
+  
+  top: 60px;
+  z-index: 4;
+
+}
+
+#catch-phrase {
+  color: white;
+  font-family: RazerF5, Arial;
+  font-size: 36px;
+  font-weight: normal;
+  top: 173px;
+  z-index: 3;
+}
+
+#pause-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 18px;
+  background-color: rgb(68, 214, 44);
+  cursor: pointer;
+  z-index: 2;
+
+}
+
+.pause-icon {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  background-image: url('../icons/pause-icon.svg');
+  background-size: cover;
+  background-position: center; 
+}
+
+.play-icon {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  background-image: url('../icons/play-icon.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+#product-video {
+  z-index: 1;
+  width: 100%;
+}
+
+.technology-container {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  top: 91%;
+  z-index: 3;
+}
+
+#nvidia-sphere-icon {
+  margin: 0 80px 0 80px;
+}
+
+@media (max-width: 1600px) {
+
+  #product-title-container {
+    top: 40px;
+  }
+
+  #product-title {
+    width: 80%;
+  }
+  
+  
+  
+  
+  #catch-phrase {
+    font-size: 24px;
+    top: 140px;
+    z-index: 3;
+  }
+}
+
+/*
+#pause-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+*/
+
+

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="55.55" viewBox="0 0 200 55.55">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_48" data-name="Rectangle 48" width="200" height="55.55" transform="translate(869 161.5)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="The_New_Razer_Sphere" data-name="The New Razer Sphere" transform="translate(-869 -161.5)" clip-path="url(#clip-path)">
+    <g id="the-new-razer-sphere" transform="translate(869.153 169.978)">
+      <path id="Path_7" data-name="Path 7" d="M0,.757V0H5.081V.757H2.919V7.135H2.162V.757Z" fill="#44d62c"/>
+      <path id="Path_8" data-name="Path 8" d="M10.486,7.027V3.784H6.919V7.027H6.054V0h.757V3.135h3.568V0h.757V7.027Z" fill="#44d62c"/>
+      <path id="Path_9" data-name="Path 9" d="M12.973,7.027V0H17.3V.649H13.838V3.135h2.919v.649H13.838V6.378H17.3v.649Z" fill="#44d62c"/>
+      <path id="Path_10" data-name="Path 10" d="M20.865,7.027V0h1.514l2.7,6.378H25.3V0h.757V7.027H24.649L21.946.649h-.324V7.027Z" fill="#44d62c"/>
+      <path id="Path_11" data-name="Path 11" d="M27.784,7.027V0h4.324V.649H28.649V3.135h2.919v.649H28.649V6.378h3.459v.649Z" fill="#44d62c"/>
+      <path id="Path_12" data-name="Path 12" d="M32.865,0h.865l1.189,6.378h.324L36.649.108h.865l1.405,6.27h.324L40.432,0h.757L39.784,7.027H38.378L36.973,1.081l-1.3,5.946H34.27Z" fill="#44d62c"/>
+      <text id="RAZER_SPHERE" data-name="RAZER SPHERE" transform="translate(-0.153 31.595)" fill="#fff" font-size="30" font-family="RazerF5"><tspan x="0" y="0">RAZER SPHERE</tspan></text>
+    </g>
+  </g>
+</svg>
