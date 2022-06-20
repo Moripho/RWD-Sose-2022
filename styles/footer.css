@@ -79,5 +79,11 @@ color: #999999;
 
 }
 
+@media (max-width:475px) {
+.footer-text{
+  font-size: 10px;
+}
+}
+
 
 
