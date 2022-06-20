@@ -1,20 +1,20 @@
 @font-face {
   font-family: "RazerF5";
-  src: url(/fonts/RazerF5-Regular.otf) format('opentype');
+  src: url(../fonts/RazerF5-Regular.otf) format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "RazerF5";
-  src: url(/fonts/RazerF5-Semibold.otf) format('opentype');
+  src: url(../fonts/RazerF5-Semibold.otf) format('opentype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "RazerF5";
-  src: url(/fonts/RazerF5-Bold.otf) format('opentype');
+  src: url(../fonts/RazerF5-Bold.otf) format('opentype');
   font-weight: bold;
   font-style: normal;
 }
