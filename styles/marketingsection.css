@@ -26,6 +26,7 @@
 
 #all-models-button {
   font-family: Roboto, Arial;
+  color: black;
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
@@ -35,6 +36,7 @@
   background-color: #44d62c;
   padding: 8px 12px;
   margin-bottom: 32px;
+  text-decoration: none;
 }
 
 #all-models-button:hover {
