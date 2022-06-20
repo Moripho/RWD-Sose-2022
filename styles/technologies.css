@@ -1,0 +1,77 @@
+#technologies {
+  background-color: #111111;
+  width: 100vw;
+}
+
+.product-title-wrapper {
+  margin-bottom: 10px;
+  padding-top: 28px;
+}
+
+.product-title-wrapper #product-title-graphic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slogan-wrapper,
+#technologies-icon-flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.slogan-text {
+  text-align: center;
+  font-family: RazerF5, Arial;
+  color: white;
+  font-size: 36px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+#intel-graphic,
+#nvidia-graphic {
+  display: block;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+
+@media (min-width: 680px) {
+
+  .slogan-wrapper,
+  #technologies-icon-flexbox {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .slogan-text {
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 6px;
+
+  }
+
+  #intel-graphic,
+  #nvidia-graphic {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+}
+
+/*
+
+#intel-graphic,
+#nvidia-graphic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+*/

@@ -1,6 +1,5 @@
 .technical-details {
-  width: 100%;
-  height: 1100px;
+  width: 100vw;
   background-color: #181818;
   position: relative;
   display: flex;
@@ -16,28 +15,46 @@
   grid-template-rows: 5fr repeat(11, 1fr);
   grid-auto-rows: minmax(46px, auto);
   font-family: Roboto, Arial;
-  font-size: 16px;
+  font-size: 11px;
   color: white;
+  padding-top: 42px;
+  padding-bottom: 42px;
 }
 
 #grid-item-two {
-  background-image: url('../bilder_grafiken/razer-sphere-pitch-black.svg');
-  background-repeat: no-repeat;
+margin-left: 40px;
+  
 }
 
 #grid-item-three {
-  background-image: url('../bilder_grafiken/razer-sphere-pearl-white.svg');
-  background-repeat: no-repeat;
+margin-left: 40px;
+  
 }
 
 #grid-item-four {
-  background-image: url('../bilder_grafiken/razer-sphere-reptile-green.svg');
-  background-repeat: no-repeat;
+margin-left: 40px;
+  
+}
+
+#first-model {
+  width: 100%;
+  max-width: 150px;
+}
+
+#second-model {
+  width: 80%;
+  max-width: 120px;
+  padding-top: 49px;
+}
+
+#third-model {
+  width: 60%;
+  padding-top: 98px;
+  max-width: 90px;
 }
 
 .grid-item-header {
   display: flex;
-  margin-left: 40px;
 }
 
 .grid-item-model,
@@ -87,5 +104,28 @@ border-width: 0px 0px 0.5px 0;
 #grid-item-fortyfive {
   border-left-width: 0px;
 }
+
+@media (min-width: 680px) {
+
+  .grid {
+    font-size: 14px;
+  }
+
+}
+
+/*
+
+.grid-item-model,
+.grid-item {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #707070;
+}
+
+
+*/
 
 

@@ -61,3 +61,10 @@
 #buy-button:hover {
   opacity: 0.85;
 }
+
+@media (min-width: 300px) {
+  #razer-sphere-heading {
+    font-size: 14px;
+  }
+  
+}

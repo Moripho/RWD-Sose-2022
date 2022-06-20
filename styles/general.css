@@ -19,9 +19,15 @@
   font-style: normal;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
+  position: relative;
   background-color: black;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 

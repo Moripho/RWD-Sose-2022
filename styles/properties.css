@@ -1,106 +1,84 @@
-.properties-container {
-  display: flex;
-  height: 480px;
+#properties-section {
   width: 100vw;
-  justify-content: center;
-}
-
-.properties-illustration-container {
-  position: relative;
   display: flex;
   flex-direction: column;
-  width: 1920px;
   align-items: center;
   background-color: #111111;
 }
 
 #properties-heading {
-  position: absolute;
-  margin: 0;
-  font-family: RazerF5;
-  font-weight: normal;
+  font-family: RazerF5, Arial;
   font-size: 28px;
-  color: #999999;
-  top: 82px;
-}
-
-#properties-illustration-wrapper {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 1000px;
-  top: 202px;
-}
-
-.property-illustration {
-  display: flex;
-  flex-direction: column;
-  width: 142px;
-  align-items: center;
-}
-
-.property-icon {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-
 }
 
 .property-text {
   font-family: Roboto, Arial;
-  font-size: 24px;
+  font-size: 28px;
   color: #999999;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-/*
-
-.properties-container {
-  position: relative;
+#properties-illustrations-wrapper {
   display: flex;
-  height: 480px;
-  width: 100%;
-  background-color: #111111;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #properties-heading {
-  position: absolute;
-  margin: 0;
-  font-family: RazerF5;
-  font-weight: normal;
-  font-size: 28px;
-  color: #999999;
-  top: 82px;
+  margin-top: 82px;
+  margin-bottom: 60px;
 }
 
-.properties-illustration-container {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  top: 202px;
-  width: 1300px;
-  justify-content: space-evenly;
-}
-
-.property-illustration {
+.property {
   display: flex;
   flex-direction: column;
-  width: 150px;
   align-items: center;
 }
 
-.property-icon {
-  width: 120px;
-  height: 120px;
-  object-fit: contain;
+#last-property-text {
+  margin-bottom: 82px;
+}
+
+#first-row,
+#second-row {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 680px){
+
+  #first-row,
+  #second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#properties-illustrations-wrapper {
+  margin-bottom: 52px;
+}
+
+#last-property-text {
+  margin-bottom: 30px;
+}
+
+#top-row-property {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#bottom-row-property {
+  margin-left: 25px;
+  margin-right: 25px;
+}
 
 }
 
-.property-text {
-  font-family: Roboto, Arial;
-  font-size: 24px;
-  color: #999999;
+@media (min-width: 1000px) {
+  #properties-illustrations-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
-
-*/

@@ -1,155 +1,126 @@
-.marketing-section-one {
+#marketing-section-one,
+#marketing-section-two {
   width: 100vw;
-  height: 370px;
   display: flex;
-  justify-content: center;
-}
-
-#background-marketing-section-one {
-  display: flex;
-  justify-content: center;
-  background-color: #080808;
-  height: 370px;
-  width: 1920px;
-}
-
-#marketing-wrapper {
-  width: 800px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
-#marketing-title,
-#marketing-title-two {
-  font-family: RazerF5, Arial;
-  font-size: 36px;
-  font-weight: normal;
-  color: white;
-  margin: 0;
-}
-
-#marketing-title {
-  top: 48px;
-}
-
-#marketing-text {
-  font-family: Roboto, Arial;
-  font-size: 16px;
-  color: #999999;
+.slogan-marketing-section {
   text-align: center;
-  margin: 32px 0px;
+  font-family: RazerF5, Arial;
+  color: white;
+  font-size: 28px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.marketing-section-paragraph {
+  font-family: Roboto, Arial;
+  font-size: 18px;
+  color: #999999;
   line-height: 27px;
+  padding: 30px;
+  text-align: center;
 }
 
 #all-models-button {
   font-family: Roboto, Arial;
   font-size: 14px;
   font-weight: bold;
-  background-color: rgb(0, 255, 0);
-  padding: 8px 12px;
   cursor: pointer;
   border: none;
   border-radius: 2px;
   opacity: 1;
+  background-color: #44d62c;
+  padding: 8px 12px;
+  margin-bottom: 32px;
 }
 
 #all-models-button:hover {
   opacity: 0.85;
 }
 
+@media (min-width: 680px) {
+
+  .slogan-marketing-section {
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 680px) {
+  .slogan-wrapper {
+    margin-top: 42px;
+  }
+}
+
+@media (min-width: 1000px) {
+
+  .marketing-section-paragraph,
+  .marketing-paragraph-two {
+    width: 1000px;
+  }
+}
+
 /* Marketing Section Two */
 
-.marketing-section-two {
-  height: 1200px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+#marketing-section-two-heading {
+  font-family: RazerF5, Arial;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.marketing-paragraph-two {
+  font-family: Roboto, Arial;
+  font-size: 18px;
+  color: #999999;
+  line-height: 27px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 #background {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 1920px;
-  background-image: url('../bilder_grafiken/razer-spheres-mockup.png');
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-
-
-#marketing-wrapper-two {
-  position: absolute;
-  width: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 180px;
 }
 
-#marketing-title-two {
-  position: absolute;
-  top: 82px;
+@media (max-width: 416px) {
+  #marketing-section-two-heading {
+    font-size: 28px;
+  }
+
+
 }
 
-#marketing-heading,
-#marketing-text-top,
-#marketing-text-bottom {
-  font-family: Roboto, Arial;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 27px;
-  color: #999999;
-  text-align: center;
+@media (min-width: 1200px) {
+  #background {
+    background-image: url('../bilder_grafiken/razer-spheres-mockup.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+
+  #last-marketing-paragraph-two {
+    margin-bottom: 772px;
+
+  }
+
+  #marketing-section-two-heading {
+    margin-top: 82px;
+    margin-bottom: 63px;
+  }
 }
-
-#marketing-text-top,
-#marketing-heading {
-  margin-bottom: 30px;
-}
-
-/* 
-
-.marketing-section-two {
-  position: relative;
-  height: 1200px;
-  background-image: url('../bilder_grafiken/razer-spheres-mockup.png');
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-}
-
-#marketing-wrapper-two {
-  position: absolute;
-  width: 800px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  top: 190px;
-}
-
-#marketing-title-two {
-  position: absolute;
-  top: 82px;
-}
-
-#marketing-heading,
-#marketing-text-top,
-#marketing-text-bottom {
-  font-family: Roboto, Arial;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 27px;
-  color: #999999;
-  text-align: center;
-}
-
-#marketing-text-top,
-#marketing-heading {
-  margin-bottom: 30px;
-}
-
-*/
-

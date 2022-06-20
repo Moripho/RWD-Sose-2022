@@ -19,6 +19,10 @@
   <link rel="stylesheet" href="./styles/shop.css">
   <link rel="stylesheet" href="./styles/technical-details.css">
   <link rel="stylesheet" href="./styles/razercare.css">
+  <link rel="stylesheet" href="./styles/technologies.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+
+
 
 </head>
 
@@ -52,28 +56,36 @@
 
     <section class="product-video-container">
 
-      <div id="product-title-container">
-        <img id="product-title" src="./bilder_grafiken/The New Razer Sphere.svg" alt="The New Razer Sphere">
-      </div>
-
-      <div id="catch-phrase">EFFIZIENZ. ELEGANZ. ENDLOSIGKEIT.</div>
-
-      <div class="technology-container">
-
-
-
-        <img id="intel-roll-icon" src="./bilder_grafiken/icon-intel-core-i9.png" alt="Intel Roll Icon">
-
-        <img id="nvidia-sphere-icon" src="./bilder_grafiken/logo-nvidia-geforce-rtx.png" alt="NVDIA Sphere Icon">
-
-        <button id="pause-button">
-          <div class="pause-icon" id="icon">
-          </div>
-        </button>
-
-      </div>
-
       <video id="product-video" src="./videos/razer-sphere-product-video.mp4" muted loop autoplay></video>
+
+      <button id="pause-button">
+        <div class="pause-icon" id="icon">
+        </div>
+      </button>
+
+    </section>
+
+    <section id="technologies">
+
+      <div class="product-title-wrapper">
+        <img id=product-title-graphic src="./bilder_grafiken/The New Razer Sphere.svg   " alt="">
+      </div>
+
+
+      <div class="slogan-wrapper">
+        <p class="slogan-text">EFFIZIENZ.</p>
+        <p class="slogan-text">ELEGANZ.</p>
+        <p class="slogan-text">ENDLOSIGKEIT.</p>
+      </div>
+
+      <div id="technologies-icon-flexbox">
+
+        <img id="intel-graphic" src="./bilder_grafiken/icon-intel-core-i9.png">
+        <img id="nvidia-graphic" src="./bilder_grafiken/logo-nvidia-geforce-rtx.png">
+
+      </div>
+
+
 
     </section>
 
@@ -113,37 +125,39 @@
       </div>
     </section>
 
-    <section class="properties-container">
+    <section id="properties-section">
 
-      <div class="properties-illustration-container">
+      <div class="property-text" id="properties-heading">Eigenschaften</div>
 
-        <h2 id="properties-heading">Die Eigenschaften der Razer Sphere auf einen Blick</h2>
+      <div id="properties-illustrations-wrapper">
 
-        <div id="properties-illustration-wrapper">
-
-          <div class="property-illustration">
-            <img class="property-icon" src="./icons/radius-icon.svg" alt="Radius Icon">
+        <div id="first-row">
+          <div class="property" id="top-row-property">
+            <img class="property-icon" src="icons/radius-icon.svg">
             <p class="property-text">Radius</p>
           </div>
 
-          <div class="property-illustration">
-            <img class="property-icon" src="./icons/durchmesser-icon.svg" alt="Durchmesser Icon">
+          <div class="property" id="top-row-property">
+            <img class="property-icon" src="./icons/durchmesser-icon.svg">
             <p class="property-text">Durchmesser</p>
           </div>
 
-          <div class="property-illustration">
-            <img class="property-icon" src="./icons/umfang-icon.svg" alt="Umfang Icon">
+          <div class="property" id="top-row-property">
+            <img class="property-icon" src="./icons/umfang-icon.svg">
             <p class="property-text">Umfang</p>
           </div>
+        </div>
 
-          <div class="property-illustration">
-            <img class="property-icon" src="./icons/volumen-icon.svg" alt="Volumen Icon">
+        <div id="second-row">
+
+          <div class="property" id="bottom-row-property">
+            <img class="property-icon" src="./icons/volumen-icon.svg">
             <p class="property-text">Volumen</p>
           </div>
 
-          <div class="property-illustration">
-            <img class="property-icon" src="./icons/oberflaeche-icon.svg" alt="Oberfläche Icon">
-            <p class="property-text">Oberfläche</p>
+          <div class="property" id="bottom-row-property">
+            <img class="property-icon" src="./icons/oberflaeche-icon.svg">
+            <p class="property-text" id="last-property-text">Oberfläche</p>
           </div>
 
         </div>
@@ -152,84 +166,68 @@
 
     </section>
 
-    <section class="marketing-section-one">
+    <section id="marketing-section-one">
 
-      <div id="background-marketing-section-one">
-
-        <div id="marketing-wrapper">
-
-          <h2 id="marketing-title">EFFIZIENZ. ELEGANZ. ENDLOSIGKEIT.</h2>
-
-          <div id="marketing-text">
-            Und du hattest schon geglaubt, eine Kugel könnte gar nicht noch effizienter sein — das ist die neue
-            Razer Sphere - jetzt dank neuem Durchmesser und neuem Volumen mit so viel Effizienz, wie sie noch keine
-            Kugel jemals zuvor hatte. Bei den Farben hast du die Wahl zwischen Pitch Black, Pearl White oder jetzt
-            auch Reptile Green - konkurrenzlose Eleganz in der performantesten Sphäre aller Zeiten.
-          </div>
-
-          <button id="all-models-button">ALLE MODELLE ANSEHEN</button>
-
-        </div>
-
+      <div class="slogan-wrapper">
+        <p class="slogan-marketing-section" id="top-slogan-item">EFFIZIENZ.</p>
+        <p class="slogan-marketing-section">ELEGANZ.</p>
+        <p class="slogan-marketing-section">ENDLOSIGKEIT.</p>
       </div>
+
+      <div class="marketing-section-paragraph">
+        Und du hattest schon geglaubt, eine Kugel könnte gar nicht noch effizienter sein — das ist die neue
+        Razer Sphere - jetzt dank neuem Durchmesser und neuem Volumen mit so viel Effizienz, wie sie noch keine
+        Kugel jemals zuvor hatte. Bei den Farben hast du die Wahl zwischen Pitch Black, Pearl White oder jetzt
+        auch Reptile Green - konkurrenzlose Eleganz in der performantesten Sphäre aller Zeiten.
+      </div>
+
+      <a id="all-models-button">ALLE MODELLE ANSEHEN</a>
 
     </section>
 
+    <section id="shop-section">
 
-
-    <section class="shop-section">
+      <div id="shop-heading">Verfügbar bei</div>
 
       <div id="shop-wrapper">
 
-        <h2 id="shop-heading">Verfügbar bei</h2>
+        <div id="first-row-wrapper">
 
-        <div id="shop-row">
-
-          <div class="image-container">
-            <img id="amazon-logo" src="./bilder_grafiken/amazon-logo.svg" alt="Amazon Logo">
+          <div class="shop-logo-container">
+            <img id="amazon-logo" src="./bilder_grafiken/amazon-logo.svg">
           </div>
 
-          <div class="image-container">
-            <img id="mediamarkt-logo" src="./bilder_grafiken/mediamarkt-logo.svg" alt="Mediamarkt Logo">
+          <div class="shop-logo-container">
+            <img id="mediamarkt-logo" src="./bilder_grafiken/mediamarkt-logo.svg">
           </div>
 
+        </div>
 
-          <div class="image-container">
-            <img id="saturn-logo" src="./bilder_grafiken/Saturn-logo.svg" alt="Saturn Logo">
-          </div>
-
+        <div class="shop-logo-container" id="last-shop-logo">
+          <img id="saturn-logo" src="./bilder_grafiken/Saturn-logo.svg">
         </div>
 
       </div>
 
     </section>
 
-    <section class="marketing-section-two">
+    <section id="marketing-section-two">
 
       <div id="background">
 
-        <h2 id="marketing-title-two">Kugellösungen der Razer Sphere&trade; Serie</h2>
+        <div id="marketing-section-two-heading">Kugellösungen der Razer Sphere&trade; Serie</div>
 
-        <div id="marketing-wrapper-two">
+        <div class="marketing-paragraph-two">Immersives geometrisches Erlebnis</div>
 
-          <div id="marketing-heading">Immersives geometrisches Erlebnis</div>
+        <div class="marketing-paragraph-two">Unsere leistungsstärksten Rotationskörper werden von Technologie-Lösungen
+          der GeForce GEO Serie befeuert mit neuen Radien, Durchmessern, Umfängen, Volumen & Oberflächen-Abmessungen.
+          Dank neuester Technologien sind diese Kugeln perfekt optimiert, um eine noch bessere Performance und noch
+          höhere Geschwindigkeiten zu bieten.</div>
 
-          <div id="marketing-text-top">
-            Unsere leistungsstärksten Rotationskörper werden von Technologie-Lösungen der GeForce GEO&trade; Serie
-            befeuert,
-            mit neuen Radien, Durchmessern, Umfängen, Volumen & Oberflächen-Abmessungen. Dank neuester Technologien
-            sind diese Kugeln perfekt optimiert, um eine noch bessere Performance und noch höhere Geschwindigkeiten zu
-            bieten.
-          </div>
-
-          <div id="marketing-text-bottom">
-            Die neuen Intel Core i9&trade; Geometrics markieren die Premiere des Flaggschiffs der Sphären.
-            Auch dank den präzise bearbeiteten Materialien der Razer Sphere Modelle, bietet die Kugel eine
-            konkurrenzlose Performance und ermöglicht ein bis zu 70% besseres Rollverhalten im Vergleich
-            zur Konkurrenz.
-          </div>
-
-        </div>
+        <div class="marketing-paragraph-two" id="last-marketing-paragraph-two">Die neuen Intel Core Geometrics markieren
+          die Premiere des Flaggschiffs der Sphären.
+          Auch dank den präzise bearbeiteten Materialien der Razer Sphere Modelle, bietet die Kugel eine konkurrenzlose
+          Performance und ermöglicht ein bis zu 70% besseres Rollverhalten im Vergleich zur Konkurrenz.</div>
 
       </div>
 
@@ -239,10 +237,18 @@
 
       <div class="grid">
 
+       
+
         <div class="grid-item-header" id="grid-item-one"></div>
-        <div class="grid-item-header" id="grid-item-two"></div>
-        <div class="grid-item-header" id="grid-item-three"></div>
-        <div class="grid-item-header" id="grid-item-four"></div>
+        <div class="grid-item-header" id="grid-item-two">
+          <img id="first-model" src="./bilder_grafiken/razer-sphere-pitch-black.svg" alt="">
+        </div>
+        <div class="grid-item-header" id="grid-item-three">
+          <img id="second-model" src="./bilder_grafiken/razer-sphere-pearl-white.svg" alt="">
+        </div>
+        <div class="grid-item-header" id="grid-item-four">
+          <img id="third-model" src="./bilder_grafiken/razer-sphere-reptile-green.svg" alt="">
+        </div>
         <div class="grid-item-model" id="grid-item-five"></div>
         <div class="grid-item-model" id="grid-item-six">Razer Sphere Pitch Black</div>
         <div class="grid-item-model" id="grid-item-seven">Razer Sphere Pearl White</div>
@@ -317,17 +323,39 @@
 
       </div>
 
-
-
     </section>
 
 
-
-
   </main>
+
+  <footer id="footer">
+
+    <div class="left-section">
+      <div class="footer-text">Copyright &copy; 2022 Jonas Kopp. All rights reserved.</div>
+    </div>
+
+    <div class="middle-section">
+      <div class="footer-text middle-section-first-item">Rechtliche Bedingungen</div>
+      <div class="footer-text middle-section-second-item">Datenschutzerklärung</div>
+      <div class="footer-text middle-section-third-item">Cookie-Richtlinien</div>
+    </div>
+
+    <div class="right-section">
+      <div class="footer-text middle-section-first-item">Deutschland</div>
+      <div class="footer-text middle-section-third-item">Standort wecheln</div>
+    </div>
+
+  </footer>
+
+
+
   <script src="./javascript/video.js"></script>
   <script src="./javascript/carousel.js"></script>
 </body>
+
+<section id="razercare">
+
+</section>
 
 </html>
 

@@ -1,40 +1,33 @@
 .razercare {
   width: 100vw;
-  height: 400px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  background-color: #2e2e30;
 }
 
 #razercare-wrapper {
-  position: relative;
+  width: 100%;
   display: flex;
   flex-direction: row;
   background-image: url('../bilder_grafiken/razercare-mockup.png');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  justify-content: center;
   align-items: center;
-  width: 1920px;  
-}
-
-#razercare-icon-container {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  height: 400px;
-  left: 40%;
-}
-
-#razercare-icon {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 #razercare-text-container {
-  width: 330px;
-  position: absolute;
-  right: 10%;
+  padding: 30px;
+}
+
+#razercare-icon {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
 }
 
 #razercare-text-top,
@@ -52,12 +45,25 @@
 
 #razercare-text-bottom {
   font-size: 16px;
-  color: #00FF00;
+  color: #44D62C;
   cursor: pointer;
 }
 
 #razercare-text-bottom:hover {
   text-decoration: underline;
+}
+
+@media (min-width:490px) {
+  #razercare-text-container {
+    width: 340px;
+  }
+}
+
+@media (max-width:530px) {
+  #razercare-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
